@@ -31,13 +31,11 @@
         padding: 10px 0px;
     }
     header .head{
-         margin-bottom: 60px;
-         margin-left: 100px;
+     display: none;
     }
-    .search-bar input{
-        width: 60%;
-        margin-top: 40px;
+    .search-bar{
+        height: 40px;
+        width: 80%;
     }
-
 
 }
