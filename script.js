@@ -6,7 +6,7 @@
     }
 
     const apiKey = 'AIzaSyDgZrIh9I0DH1AhGlrL0OzXI7sMBKmZBfU'; // Replace with your actual API key
-    const apiUrl = `https://www.googleapis.com/youtube/v3/search?part=snippet&q=${encodeURIComponent(query)}&type=video&maxResults=6&key=${apiKey}`;
+    const apiUrl = `https://www.googleapis.com/youtube/v3/search?part=snippet&q=${encodeURIComponent(query)}&type=video&maxResults=15&key=${apiKey}`;
 
     document.getElementById('loadingSpinner').style.display = 'block';
 
